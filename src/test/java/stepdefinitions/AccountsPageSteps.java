@@ -42,6 +42,7 @@ public class AccountsPageSteps {
     @And("accounts section count should be {int}")
     public void user_gets_accounts_section(Integer count) {
       Assert.assertTrue(accountsPage.getAccountsSectionCount() ==  count );
+      Assert.fail();
     }
 
 }
