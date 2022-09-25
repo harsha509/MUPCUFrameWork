@@ -14,13 +14,10 @@ public class LoginPageSteps {
     public void user_is_on_login_page() {
         DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
-
     @When("user gets the title of the page")
     public void user_gets_the_title_of_the_page() {
         title= loginPage.getLoginPageTitle();
-
     }
-
     @Then("page title should be {string}")
     public void page_title_should_be(String string) {
         Assert.assertTrue(title.contains(string));

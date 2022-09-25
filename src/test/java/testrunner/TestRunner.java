@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 
-@CucumberOptions( features = "src/test/resources/Features",
+@CucumberOptions( features = "src/test/resources/Features/AccountsPage.feature",
             glue = {"stepdefinitions","apphooks"},
             plugin = {"json:target/cucumber-reports/CucumberTestReport.json" ,
             "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

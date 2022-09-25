@@ -17,14 +17,17 @@ public class Helper {
     }
     @JsonProperty("post code")
     public  String getPostCode() {
+
         return postCode;
     }
     @JsonProperty("post code")
     public  void setPostCode(String postCode) {
+
         Helper.postCode = postCode;
     }
     @JsonProperty("country abbreviation")
     public  String getCountryAb() {
+
         return countryAb;
     }
     @JsonProperty("country abbreviation")
@@ -33,6 +36,7 @@ public class Helper {
     }
     @JsonProperty("country")
     public  String getCountry() {
+
         return country;
     }
     @JsonProperty("country")

@@ -2,6 +2,7 @@ package com.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPage {
     private WebDriver driver;
@@ -21,6 +22,7 @@ public class LoginPage {
 
     public String getLoginPageTitle() {
         return driver.getTitle();
+
     }
 
     public boolean isForgotPwdLinkExist() {
